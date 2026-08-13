@@ -280,6 +280,12 @@ a { color: inherit; text-decoration: none; }
 }
 .part-body p { margin: 0 0 18px; color: var(--ink-soft); max-width: 46em; }
 .part-body strong { color: var(--ink); font-weight: 600; }
+.part-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 22px;
+  align-items: center;
+}
 .part-link {
   font-size: .9rem;
   font-weight: 500;
